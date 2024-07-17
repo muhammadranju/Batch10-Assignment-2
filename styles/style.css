@@ -12,3 +12,106 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+.shape-text {
+  font-family: "Miama";
+  font-size: 4.875;
+  font-weight: 900;
+}
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+    background-color: rgb(0, 0, 0);
+    } */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  max-width: 85%;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+/* global styles */
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.color-white {
+  color: rgb(255, 255, 255);
+}
+.color-gray {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  padding: 16px 40px 16px 40px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: rgb(255, 255, 255);
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.smell-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+/* shared styles */
+
+/* start header section */
+header {
+  padding: 3.125rem 1.875rem;
+  background-color: linear-gradient(rgb(17, 17, 17) rgba(119, 119, 119, 0));
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title {
+  font-size: 2.25rem;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+  font-family: 800;
+}
+.ham-bars {
+  display: none;
+}
+
+.nav-links {
+  gap: 2.9375rem;
+  font-size: 1.125rem;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 39px;
+  width: 28.4375rem;
+  height: 2.875rem;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-left: 0.25rem;
+}
+.nav-links a {
+  color: rgb(255, 255, 255);
+  padding-right: 0.625rem;
+}
+
+.bold-link {
+  font-size: 1.125rem;
+  border-radius: 2.875rem;
+  background: rgb(230, 83, 60);
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  font-weight: 600;
+}
+/* end header section */

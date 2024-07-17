@@ -1,0 +1,10 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  body {
+    max-width: 100%;
+  }
+
+  .nav-links {
+    gap: 2rem;
+    width: 25rem;
+  }
+}
