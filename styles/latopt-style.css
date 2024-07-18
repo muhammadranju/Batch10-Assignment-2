@@ -71,4 +71,17 @@
     margin-bottom: 20px;
   }
   /* end BMI Calculator */
+
+  /* <!-- start Meet Our Team --> */
+  .trainer {
+    top: 320px;
+    left: 30px;
+  }
+
+  .trainer-para {
+    top: 340px;
+    left: 30px;
+  }
+
+  /* <!-- end Meet Our Team --> */
 }

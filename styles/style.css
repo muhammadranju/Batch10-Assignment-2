@@ -92,6 +92,7 @@ header {
   font-size: 36px;
   font-weight: 900;
   font-style: italic;
+  color: rgb(230, 83, 60);
 }
 .ham-bars {
   display: none;
@@ -184,10 +185,18 @@ header {
 .box-2 {
   right: 500px;
   top: 550px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
 
+.box-2 .play-icon img {
+  width: 40px;
+  height: 40px;
+}
 .box-2 {
-  padding-left: 40px;
+  padding-left: 5px;
 }
 .box-2 h1 {
   font-size: 40px;
@@ -314,7 +323,8 @@ header {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.bmi-text-content h1 {
+.bmi-text-content h1,
+.team-text-content h1 {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 10px;
@@ -396,5 +406,62 @@ td {
   width: 92%;
   margin-bottom: 34px;
 }
-
 /* end BMI Calculator */
+
+/* <!-- start Meet Our Team --> */
+
+.team-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.team-text-content {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.team-text-content p {
+  width: 600px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.team-container {
+  border-radius: 18px;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 28px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+.team-card-section {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.team-card-section img {
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.trainer {
+  position: absolute;
+  top: 380px;
+  left: 40px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.trainer-para {
+  position: absolute;
+  top: 410px;
+  left: 40px;
+}
+
+/* <!-- end Meet Our Team --> */

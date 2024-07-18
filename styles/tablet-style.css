@@ -6,6 +6,7 @@
   .header-img-section img {
     margin-top: 40px;
   }
+
   .box-1 {
     top: 720px;
     right: 160px;
@@ -13,6 +14,9 @@
   .box-2 {
     top: 1000px;
     right: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* start change your habits  */
@@ -86,4 +90,18 @@
     font-size: 20px;
   }
   /* end BMI Calculator */
+
+  /* <!-- start Meet Our Team --> */
+  .trainer {
+    top: 160px;
+    left: 30px;
+    font-size: 14px;
+  }
+
+  .trainer-para {
+    top: 180px;
+    left: 30px;
+  }
+
+  /* <!-- end Meet Our Team --> */
 }

@@ -65,8 +65,19 @@
     right: 20px;
   }
   .box-2 {
+    padding-left: 5px;
+  }
+
+  .box-2 .play-icon img {
+    width: 35px;
+    height: 35px;
+  }
+  .box-2 {
     top: 850px;
     right: 200px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
   }
 
   /* start change your habits  */
@@ -181,4 +192,27 @@
     margin-bottom: 14px;
   }
   /* end BMI Calculator */
+
+  /* <!-- start Meet Our Team --> */
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px 20px;
+    gap: 20px;
+  }
+  .team-text-content p {
+    width: 100%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+  .trainer {
+    top: 290px;
+    left: 40px;
+  }
+
+  .trainer-para {
+    top: 320px;
+    left: 40px;
+  }
+  /* <!-- end Meet Our Team --> */
 }
