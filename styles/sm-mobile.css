@@ -1,0 +1,54 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  header,
+  main,
+  footer {
+    /* max-width: 1440px; */
+    padding-top: 3.125rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .btn-section {
+    margin-top: 30px;
+  }
+  .btn-section button {
+    font-size: 13px;
+  }
+  .btn-primary {
+    padding: 12px 20px 12px 20px;
+  }
+  .btn-outline {
+    padding: 12px 20px 12px 20px;
+  }
+  /* .box-1 {
+    top: 700px;
+    right: 5px;
+  }
+  .box-2 {
+    top: 950px;
+    right: 130px;
+  } */
+  .trainer {
+    top: 230px;
+    left: 25px;
+  }
+
+  .trainer-para {
+    top: 250px;
+    left: 25px;
+  }
+
+  .input-form-1,
+  .input-form-2,
+  .input-form-3,
+  .input-form-4 {
+    margin-right: 10px;
+    width: 44%;
+    font-size: 13px;
+  }
+  .input-form-5 {
+    width: 95%;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}

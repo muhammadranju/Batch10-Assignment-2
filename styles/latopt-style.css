@@ -65,10 +65,16 @@
     max-width: 100%;
   }
 
-  .input-form,
-  .select-form {
-    width: 100%;
-    margin-bottom: 20px;
+  .input-form-1,
+  .input-form-2,
+  .input-form-3,
+  .input-form-4 {
+    margin-right: 10px;
+    width: 46%;
+  }
+  .input-form-5 {
+    width: 95%;
+    margin-right: 10px;
   }
   /* end BMI Calculator */
 

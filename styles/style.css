@@ -309,14 +309,16 @@ header {
 /* start BMI Calculator */
 
 .calculator-section {
-  margin-top: 100px;
+  max-width: 100%;
+  background-color: rgb(34, 34, 34);
+  margin: 0 auto;
 }
 
-.bmi-table-section {
+.calculator-container {
   margin: 0 auto;
-  max-width: 100%;
-  margin-left: 150px;
+  max-width: 1440px;
 }
+
 .bmi-text-content {
   text-align: center;
   align-content: center;
@@ -327,7 +329,7 @@ header {
 .team-text-content h1 {
   font-size: 48px;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin-top: 100px;
 }
 .bmi-text-content p {
   font-size: 14px;
@@ -338,13 +340,11 @@ header {
 
 .full-content {
   background-color: rgb(34, 34, 34);
-  padding: 50px;
+  padding: 50px 0px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  gap: 150px;
-  margin: 0 auto;
-  max-width: 100%;
+  gap: 400px;
 }
 
 .bmi-table-section h1,
@@ -372,12 +372,8 @@ td {
 
 .bmi-form-section {
   width: 50%;
-  height: 100%;
-  margin: 0 auto;
 }
-.bmi-form-section h1 {
-  margin-bottom: 10px;
-}
+
 .bmi-form-section p {
   margin-bottom: 30px;
   width: 600px;
@@ -386,30 +382,35 @@ td {
   font-weight: 400;
 }
 
-.input-form,
-.select-form {
-  width: 405px;
-  height: 60px;
+.input-form-1,
+.input-form-2,
+.input-form-3,
+.input-form-4,
+.input-form-5 {
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
-  padding: 12px 40px 12px 20px;
+  padding: 20px 40px 20px 40px;
   font-size: 16px;
-  margin-bottom: 14px;
-  color: rgba(255, 255, 255, 0.5);
-}
-.form {
-  padding: 100px;
+  color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 15px;
 }
 
-.select-form {
-  width: 92%;
-  margin-bottom: 34px;
+.input-form-1,
+.input-form-2,
+.input-form-3,
+.input-form-4 {
+  margin-right: 10px;
+  width: 48%;
 }
+.input-form-5 {
+  width: 98%;
+  margin-right: 10px;
+}
+
 /* end BMI Calculator */
 
 /* <!-- start Meet Our Team --> */
-
 .team-section {
   max-width: 1440px;
   margin: 0 auto;
@@ -463,5 +464,44 @@ td {
   top: 410px;
   left: 40px;
 }
-
 /* <!-- end Meet Our Team --> */
+
+/* start footer section */
+.footer {
+  max-width: 100%;
+  background-color: rgb(34, 34, 34);
+  margin-top: 88px;
+}
+.footer-main-content {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo-section h1 {
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+}
+.logo-section p {
+  width: 443px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.service-section ul li {
+  margin: 18px 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-lest-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 36px;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.5);
+}

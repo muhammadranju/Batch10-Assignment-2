@@ -1,11 +1,4 @@
 @media screen and (max-width: 576px) {
-  header,
-  main,
-  footer {
-    max-width: 100%;
-    /* padding-top: 30px; */
-    margin: 0 auto;
-  }
   .hero-section {
     flex-direction: column;
   }
@@ -19,7 +12,7 @@
     width: 100%;
   }
   .head-title {
-    font-size: 36px;
+    font-size: 46px;
     width: 100%;
     line-height: 120%;
   }
@@ -182,14 +175,23 @@
     font-size: 14px;
     font-weight: 400;
   }
-  .form {
-    padding: 100px;
-  }
-  .input-form,
-  .select-form {
-    width: 100%;
 
-    margin-bottom: 14px;
+  .input-form-1,
+  .input-form-2,
+  .input-form-3,
+  .input-form-4 {
+    margin-right: 10px;
+    width: 45%;
+    font-size: 13px;
+  }
+  .input-form-5 {
+    width: 95%;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .from button {
+    margin-top: 10px;
+    width: 100%;
   }
   /* end BMI Calculator */
 
@@ -206,13 +208,33 @@
     font-size: 14px;
   }
   .trainer {
-    top: 290px;
-    left: 40px;
+    top: 280px;
+    left: 20px;
   }
 
   .trainer-para {
-    top: 320px;
-    left: 40px;
+    top: 300px;
+    left: 20px;
   }
   /* <!-- end Meet Our Team --> */
+
+  /* start footer section */
+  .footer-main-content {
+    flex-direction: column;
+  }
+  .logo-section p {
+    width: 317px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .service-section ul li {
+    font-size: 23px;
+  }
+
+  .footer-lest-content {
+    font-size: 1.2rem;
+  }
+  /* end footer section */
 }
