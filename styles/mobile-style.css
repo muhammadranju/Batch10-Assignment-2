@@ -37,4 +37,36 @@
   .btn-primary {
     padding: 15px 30px 15px 30px;
   }
+
+  .tr-box {
+    width: 145.91px;
+    height: 74.09px;
+    padding-left: 30px;
+    position: absolute;
+  }
+  .tr-box h1 {
+    font-size: 30px;
+  }
+  .tr-box p {
+    font-size: 9px;
+  }
+  .box-1 {
+    top: 620px;
+    right: 50px;
+  }
+  .box-2 {
+    top: 850px;
+    right: 220px;
+  }
+
+  .box-2 {
+    padding-left: 50px;
+  }
+  .round-box {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -39px;
+    left: -125px;
+  }
 }

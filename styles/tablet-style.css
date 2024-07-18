@@ -6,4 +6,16 @@
   .header-img-section img {
     margin-top: 40px;
   }
+  .box-1 {
+    top: 720px;
+    right: 160px;
+  }
+  .box-2 {
+    top: 1000px;
+    right: 420px;
+  }
+  .round-box {
+    top: -210px;
+    left: -195px;
+  }
 }
