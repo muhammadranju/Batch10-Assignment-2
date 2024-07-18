@@ -18,4 +18,17 @@
     top: -210px;
     left: -195px;
   }
+
+  /* start change your habits  */
+  .habits-section {
+    margin-top: -50px;
+    width: 100%;
+  }
+  .habits-img-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+  }
+
+  /* end change your habits  */
 }

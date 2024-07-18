@@ -1,4 +1,11 @@
 @media screen and (max-width: 576px) {
+  header,
+  main,
+  footer {
+    max-width: 100%;
+    /* padding-top: 30px; */
+    margin: 0 auto;
+  }
   .hero-section {
     flex-direction: column;
   }
@@ -66,7 +73,28 @@
     width: 30px;
     height: 30px;
     position: relative;
-    top: -39px;
+    top: -395px;
     left: -125px;
   }
+
+  /* start change your habits  */
+  .habits-section {
+    margin-top: -120px;
+    width: 100%;
+  }
+
+  .habits-text-content h1 {
+    font-size: 32px;
+  }
+  .habits-text-content p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .habits-img-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+  }
+
+  /* end change your habits  */
 }

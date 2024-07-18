@@ -58,7 +58,10 @@ header,
 main,
 footer {
   max-width: 1440px;
-  padding: 3.125rem 1.875rem;
+  /* padding: 3.125rem 1.875rem; */
+  padding-top: 3.125rem;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -135,6 +138,7 @@ header {
 }
 .header-img-section img {
   width: 349px;
+  height: 588px;
 }
 .head-title {
   font-size: 78px;
@@ -197,7 +201,59 @@ header {
   position: relative;
   top: 160px;
   left: -510px;
-  /* bottom: 250px; */
 }
 /* hero-section */
 /* end header section */
+
+/* start change your habits  */
+.habits-section {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.habits-text-content {
+  text-align: center;
+}
+
+.habits-text-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.habits-text-content p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  width: 671px;
+  margin: 0 auto;
+}
+
+.habits-img-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.habits-img-card {
+  text-align: center;
+}
+.habits-img-card img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  width: 90%;
+}
+.habits-img-card p {
+  width: 231px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.05rem;
+}
+.habits-img-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* end change your habits  */
