@@ -32,9 +32,43 @@
     margin-left: 200px;
   }
 
-  /* .mile-image-card {
-    width: 300px;
-    height: 312px;
-    border-radius: 18px;
-  } */
+  /* start BMI Calculator */
+
+  .bmi-table-section {
+    margin-left: 30px;
+  }
+  .bmi-table-section table,
+  th,
+  td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    padding: 15px 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+
+  .bmi-form-section {
+    width: 50%;
+    height: 100%;
+  }
+
+  .full-content {
+    background-color: rgb(34, 34, 34);
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .input-form,
+  .select-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* end BMI Calculator */
 }

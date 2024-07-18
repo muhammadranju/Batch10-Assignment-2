@@ -55,6 +55,35 @@
     height: 312px;
     border-radius: 18px;
   }
-
   /* end mile-easily-section */
+
+  /* start BMI Calculator */
+
+  .bmi-text-content p {
+    width: 80%;
+  }
+
+  .full-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .bmi-form-section {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bmi-form-section p {
+    margin-bottom: 30px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .input-form,
+  .select-form {
+    width: 100%;
+    font-size: 20px;
+  }
+  /* end BMI Calculator */
 }
