@@ -14,10 +14,6 @@
     top: 1000px;
     right: 420px;
   }
-  .round-box {
-    top: -210px;
-    left: -195px;
-  }
 
   /* start change your habits  */
   .habits-section {
@@ -29,6 +25,36 @@
     gap: 50px;
     margin-top: 20px;
   }
-
   /* end change your habits  */
+
+  /* start mile-easily-section */
+
+  .mile-text-conten {
+    width: 40%;
+  }
+  .mile-text-conten h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+
+  .mile-text-conten p {
+    width: 300px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    margin-bottom: 35px;
+  }
+  .mile-image-conten {
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  .mile-image-card {
+    width: 300px;
+    height: 312px;
+    border-radius: 18px;
+  }
+
+  /* end mile-easily-section */
 }

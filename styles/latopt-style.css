@@ -1,18 +1,40 @@
-@media screen and (min-width: 992px) and (max-width: 1366px) {
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  .tr-box {
+    width: 183px;
+    height: 88px;
+  }
   .box-1 {
     top: 260px;
-    right: 130px;
+    right: 0px;
   }
 
   .box-2 {
-    right: 400px;
+    right: 280px;
     top: 550px;
+    padding-left: 30px;
   }
 
-  .round-box {
-    width: 40px;
-    height: 40px;
-    left: -520px;
-    /* bottom: 250px; */
+  /* start mile-easily-section */
+
+  .mile-text-conten {
+    width: 100%;
   }
+  .mile-text-conten h1 {
+    font-size: 48px;
+  }
+
+  .mile-text-conten p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .mile-image-conten {
+    width: 50%;
+    margin-left: 200px;
+  }
+
+  /* .mile-image-card {
+    width: 300px;
+    height: 312px;
+    border-radius: 18px;
+  } */
 }

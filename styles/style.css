@@ -179,29 +179,23 @@ header {
 
 .box-1 {
   top: 260px;
-  right: 280px;
+  right: 200px;
 }
 .box-2 {
-  right: 600px;
+  right: 500px;
   top: 550px;
 }
 
 .box-2 {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 .box-2 h1 {
-  font-size: 24px;
+  font-size: 40px;
 }
 .box-2 p {
-  font-size: 1rem;
+  font-size: 13px;
 }
-.round-box {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  top: 160px;
-  left: -510px;
-}
+
 /* hero-section */
 /* end header section */
 
@@ -255,5 +249,47 @@ header {
   font-weight: 600;
   margin-bottom: 10px;
 }
-
 /* end change your habits  */
+
+/* start mile-easily-section */
+
+.mile-easily-section {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  padding: 50px 50px;
+  gap: 5%;
+}
+
+.mile-text-conten {
+  width: 50%;
+}
+.mile-text-conten h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.mile-text-conten p {
+  width: 443px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+.mile-image-conten {
+  width: 50%;
+  margin-left: 400px;
+}
+
+.mile-image-card {
+  width: 366px;
+  height: 312px;
+  background-image: url("../images/run.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+
+/* end mile-easily-section */
