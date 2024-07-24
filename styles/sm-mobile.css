@@ -43,12 +43,21 @@
     margin-right: 10px;
     font-size: 12px;
   }
+
+  .training-section {
+    max-width: 100%;
+  }
+
   .training-img-section {
     grid-template-columns: 1;
   }
   .training-text-content {
     width: 100%;
     text-align: center;
+  }
+
+  .training-img-section {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   .training-text-content h1 {
