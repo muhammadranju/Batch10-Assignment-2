@@ -172,7 +172,7 @@ header {
   /* padding-left: ; */
 }
 .nav-links li {
-  padding: 0px 26px 0px 17px;
+  padding: 0px 24px 0px 14px;
 }
 .nav-links li a {
   color: var(--bs-color-white);
