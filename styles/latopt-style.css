@@ -1,4 +1,12 @@
-@media screen and (min-width: 993px) and (max-width: 1280px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  header,
+  main,
+  footer {
+    padding-top: 3.125rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
   .tr-box {
     width: 183px;
     height: 88px;
@@ -16,18 +24,17 @@
 
   /* start mile-easily-section */
 
-  .mile-text-conten {
+  .mile-text-content {
     width: 100%;
   }
-  .mile-text-conten h1 {
+  .mile-text-content h1 {
     font-size: 48px;
   }
 
-  .mile-text-conten p {
+  .mile-text-content p {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.5);
   }
-  .mile-image-conten {
+  .mile-image-content {
     width: 50%;
     margin-left: 200px;
   }
@@ -40,7 +47,6 @@
   .bmi-table-section table,
   th,
   td {
-    border: 1px solid rgba(255, 255, 255, 0.5);
     border-collapse: collapse;
     padding: 15px 30px;
     text-align: left;
@@ -55,7 +61,6 @@
   }
 
   .full-content {
-    background-color: rgb(34, 34, 34);
     padding: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -88,6 +93,16 @@
     top: 340px;
     left: 30px;
   }
-
   /* <!-- end Meet Our Team --> */
+
+  /* start challenge-section */
+  .challenge-card {
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  /* end challenge-section */
 }

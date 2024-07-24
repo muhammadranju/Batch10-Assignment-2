@@ -24,6 +24,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #ffffff;
   background-color: rgb(0, 0, 0);
@@ -35,29 +39,10 @@ a {
 li {
   list-style: none;
 }
-.btn-primary {
-  border-radius: 42px;
-  background: rgb(230, 83, 60);
-  border: none;
-  padding: 16px 40px 16px 40px;
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: rgb(255, 255, 255);
-}
-.btn-outline {
-  border-radius: 42px;
-  background: transparent;
-  border: 2px solid #ffffff;
-  padding: 16px 40px 16px 40px;
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: rgb(255, 255, 255);
-}
 
 header,
 main,
 footer {
-  /* max-width: 1440px; */
   padding-top: 3.125rem;
   padding-left: 20px;
   padding-right: 20px;
@@ -67,24 +52,102 @@ footer {
 header {
   background: linear-gradient(
     180deg,
-    rgb(17, 17, 17),
+    rgb(43, 43, 43),
     rgba(119, 119, 119, 0) 100%
   );
   max-width: 100%;
+}
+/* global styles */
+
+/* shared styles */
+:root {
+  --bs-color-white: #ffffff;
+
+  --bs-color-primary: rgb(230, 83, 60);
+
+  --bs-color-dark: rgb(34, 34, 34);
+
+  --bs-color-dark-1: rgba(255, 255, 255, 0.5);
+
+  --bs-color-dark-2: rgba(255, 255, 255, 0.2);
+
+  --bs-color-dark-3: rgba(255, 255, 255, 0.1);
+}
+.color-primary {
+  color: var(--bs-color-primary);
+}
+.color-dark-1 {
+  color: var(--bs-color-dark-1);
+}
+.color-dark-2 {
+  color: var(--bs-color-dark-2);
+}
+.color-dark-3 {
+  color: var(--bs-color-dark-3);
+}
+
+/* -----BG Color------------ */
+.bg-primary {
+  background: var(--bs-color-primary);
+}
+.bg-dark {
+  background-color: var(--bs-color-dark);
+}
+.bg-dark-1 {
+  background: var(--bs-color-dark-1);
+}
+.bg-dark-2 {
+  background: var(--bs-color-dark-2);
+}
+.bg-dark-3 {
+  background: var(--bs-color-dark-3);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn-primary {
+  border-radius: 42px;
+  background: var(--bs-color-primary);
+  border: none;
+  padding: 16px 40px 16px 40px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--bs-color-white);
+  cursor: pointer;
+}
+.btn-outline {
+  border-radius: 42px;
+  background: transparent;
+  border: 2px solid var(--bs-color-white);
+  padding: 16px 40px 16px 40px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  color: var(--bs-color-white);
+}
+
+.navbar,
+.challenge-section,
+.footer-lest-content,
+.footer-main-content,
+.team-section,
+.calculator-container,
+.mile-easily-section,
+.habits-section,
+.hero-section,
+.training-section {
+  max-width: 1440px;
 }
 
 .hide {
   display: none;
 }
-/* global styles */
-
 /* shared styles */
 
 /* start header section */
-
 .navbar {
-  max-width: 1440px;
-  display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -92,40 +155,40 @@ header {
   font-size: 36px;
   font-weight: 900;
   font-style: italic;
-  color: rgb(230, 83, 60);
 }
 .ham-bars {
   display: none;
 }
 
 .nav-links {
-  display: flex;
-  gap: 40px;
+  /* gap: 45px; */
   width: 410px;
   height: 46px;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--bs-color-dark-2);
   border-radius: 39px;
-  padding: 0px 50px;
+  padding: 0px 200px;
+  /* padding-left: ; */
+}
+.nav-links li {
+  padding: 0px 26px 0px 17px;
 }
 .nav-links li a {
-  color: #ffffff;
+  color: var(--bs-color-white);
   font-size: 18px;
 }
 .bold-link {
-  color: #ffffff;
+  color: var(--bs-color-white);
   font-weight: 700;
   border-radius: 46px;
   padding: 8px 20px 8px 20px;
-  background: rgb(230, 83, 60);
+  background: var(--bs-color-primary);
 }
 
 /* hero-section */
 
 .hero-section {
-  max-width: 1440px;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -150,7 +213,6 @@ header {
   font-size: 18px;
   width: 520px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-section {
@@ -159,10 +221,10 @@ header {
 
 .tr-box {
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--bs-color-dark-3);
   border-radius: 12px;
   backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bs-color-dark-3);
   width: 193px;
   height: 98px;
   text-align: left;
@@ -185,7 +247,6 @@ header {
 .box-2 {
   right: 500px;
   top: 550px;
-  display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
@@ -212,7 +273,6 @@ header {
 .habits-section {
   margin-top: 50px;
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -227,7 +287,6 @@ header {
 }
 .habits-text-content p {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.5);
   width: 671px;
   margin: 0 auto;
 }
@@ -246,13 +305,12 @@ header {
 .habits-img-card img {
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid var(--bs-color-dark-2);
   width: 90%;
 }
 .habits-img-card p {
   width: 231px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, 0.5);
   font-size: 1.05rem;
 }
 .habits-img-card h3 {
@@ -265,35 +323,34 @@ header {
 /* start mile-easily-section */
 
 .mile-easily-section {
-  display: flex;
   width: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: var(--bs-color-dark);
   border-radius: 18px;
   padding: 50px 50px;
   gap: 5%;
-  max-width: 1440px;
   margin: 0 auto;
   margin-top: 100px;
 }
 
-.mile-text-conten {
+.mile-text-content {
   width: 50%;
 }
-.mile-text-conten h1 {
+.mile-text-content h1 {
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 30px;
 }
-.mile-text-conten p {
+.mile-text-content p {
   width: 443px;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
   line-height: 24px;
   margin-bottom: 35px;
 }
-.mile-image-conten {
+.mile-image-content {
   width: 50%;
   margin-left: 400px;
+  width: 366px;
+  height: 312px;
 }
 
 .mile-image-card {
@@ -310,13 +367,12 @@ header {
 
 .calculator-section {
   max-width: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: var(--bs-color-dark);
   margin: 0 auto;
 }
 
 .calculator-container {
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 .bmi-text-content {
@@ -335,13 +391,11 @@ header {
   font-size: 14px;
   width: 671px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .full-content {
-  background-color: rgb(34, 34, 34);
+  background-color: var(--bs-color-dark);
   padding: 50px 0px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 400px;
@@ -356,7 +410,7 @@ header {
 .bmi-table-section table,
 th,
 td {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--bs-color-dark-1);
   border-collapse: collapse;
   padding: 20px 40px;
   text-align: left;
@@ -366,20 +420,21 @@ td {
 }
 .bmi-table-section table tr td {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--bs-color-dark-1);
   font-weight: 400;
 }
 
 .bmi-form-section {
   width: 50%;
 }
-
+.bmi-form-section h1 {
+  margin-bottom: 15px;
+}
 .bmi-form-section p {
-  margin-bottom: 30px;
   width: 600px;
-  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .input-form-1,
@@ -389,10 +444,10 @@ td {
 .input-form-5 {
   border: none;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bs-color-dark-3);
   padding: 20px 40px 20px 40px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.2);
+  color: var(--bs-color-dark-2);
   margin-bottom: 15px;
 }
 
@@ -412,7 +467,6 @@ td {
 
 /* <!-- start Meet Our Team --> */
 .team-section {
-  max-width: 1440px;
   margin: 0 auto;
 }
 .team-text-content {
@@ -423,13 +477,12 @@ td {
 .team-text-content p {
   width: 600px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
 .team-container {
   border-radius: 18px;
   max-width: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bs-color-dark-3);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 28px 28px;
@@ -454,7 +507,7 @@ td {
   position: absolute;
   top: 380px;
   left: 40px;
-  color: #ffffff;
+  color: var(--bs-color-white);
   font-size: 1.2rem;
   font-weight: 800;
 }
@@ -469,12 +522,10 @@ td {
 /* start footer section */
 .footer {
   max-width: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: var(--bs-color-dark);
   margin-top: 88px;
 }
 .footer-main-content {
-  max-width: 1440px;
-  display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -482,26 +533,176 @@ td {
   font-size: 70px;
   font-weight: 900;
   font-style: italic;
-  color: rgb(230, 83, 60);
 }
 .logo-section p {
   width: 443px;
-  color: rgba(255, 255, 255, 0.5);
   margin-top: 20px;
 }
 
 .service-section ul li {
   margin: 18px 0px;
-  color: rgba(255, 255, 255, 0.5);
+}
+.service-section ul li a {
+  margin: 18px 0px;
+  font-size: 18px;
 }
 
 .footer-lest-content {
-  max-width: 1440px;
   margin: 0 auto;
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-top: 2px solid var(--bs-color-dark-3);
   padding-top: 36px;
   text-align: center;
   margin-top: 50px;
   padding-bottom: 35px;
-  color: rgba(255, 255, 255, 0.5);
 }
+
+/* start challenge-section */
+.challenge-section {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.challenge-text-section {
+  margin-right: 35px;
+  width: 33.33%;
+}
+.challenge-text-section h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.challenge-text-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.challenge-img-section {
+  width: 450px;
+  height: 550px;
+  background-image: url("../images/exercise1.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.challenge-img-section img {
+  width: 480px;
+  height: 500px;
+}
+
+.challenge-card-section {
+  margin-left: 30px;
+  width: 33.33%;
+}
+
+.challenge-card {
+  background-color: var(--bs-color-dark-3);
+  padding: 45px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.challenge-card h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.challenge-card p {
+  font-size: 15px;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.challenge-card a span {
+  font-size: 14px;
+  width: 100%;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1.8px solid var(--bs-color-dark-1);
+
+  margin-bottom: 20px;
+}
+/* end challenge-section */
+
+/*  start Trainings and Exercises */
+
+.training-section {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.training-text-content {
+  width: 650px;
+}
+.training-text-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.training-text-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.training-img-section {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 0px;
+  grid-auto-flow: dense;
+}
+
+.training-image-card-1 {
+  background-blend-mode: overlay;
+  background: rgba(6, 255, 210, 0.5);
+  background-image: url("../images/exercise1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.training-image-card-2 {
+  background-blend-mode: overlay;
+  background: rgba(255, 0, 0, 0.3);
+  background-image: url("../images/exercise2.png");
+  background-position: center;
+  background-size: cover;
+}
+.training-image-card-3 {
+  height: 214px;
+  background-blend-mode: overlay;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/exercise3.png");
+  background-position: center;
+  background-size: cover;
+}
+.training-image-card-4 {
+  background-blend-mode: overlay;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/exercise4.png");
+  background-position: center;
+  background-size: cover;
+}
+.training-image-card-5 {
+  height: 219px;
+  background-blend-mode: overlay;
+  background: rgba(66, 255, 0, 0.3);
+  background-image: url("../images/exercise5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.training-image-card-6 {
+  background-blend-mode: overlay;
+  background: rgba(0, 71, 255, 0.3);
+  background-image: url("../images/exercise6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/*  end Trainings and Exercises */

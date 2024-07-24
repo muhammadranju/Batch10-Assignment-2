@@ -33,23 +33,22 @@
 
   /* start mile-easily-section */
 
-  .mile-text-conten {
+  .mile-text-content {
     width: 40%;
   }
-  .mile-text-conten h1 {
+  .mile-text-content h1 {
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 30px;
   }
 
-  .mile-text-conten p {
+  .mile-text-content p {
     width: 300px;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
     line-height: 24px;
     margin-bottom: 35px;
   }
-  .mile-image-conten {
+  .mile-image-content {
     width: 50%;
     margin-left: 50px;
   }
@@ -76,15 +75,9 @@
     gap: 40px;
   }
 
-  .bmi-form-section {
-    /* width: 100%; */
-    /* height: 100%; */
-  }
-
   .bmi-form-section p {
     margin-bottom: 30px;
     width: 100%;
-    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
   }
@@ -117,6 +110,51 @@
     top: 180px;
     left: 30px;
   }
-
   /* <!-- end Meet Our Team --> */
+
+  /* start challenge-section */
+  .challenge-section {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .challenge-text-section {
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .challenge-card-section {
+    margin-left: 0px;
+    width: 75%;
+  }
+
+  .challenge-card {
+    padding: 50px;
+  }
+
+  .challenge-card h3 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .challenge-card p {
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+  .training-img-section {
+    grid-template-columns: 1;
+  }
+
+  .training-image-card-1,
+  .training-image-card-2,
+  .training-image-card-3,
+  .training-image-card-4,
+  .training-image-card-5,
+  .training-image-card-6 {
+    height: 214px;
+  }
+  /* end challenge-section */
 }
