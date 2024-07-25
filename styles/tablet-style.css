@@ -1,19 +1,19 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .hero-section {
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
   }
   .header-img-section img {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   .box-1 {
-    top: 720px;
-    right: 160px;
+    top: 45rem;
+    right: 10rem;
   }
   .box-2 {
-    top: 1000px;
-    right: 420px;
+    top: 62.5rem;
+    right: 26.25rem;
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -21,13 +21,13 @@
 
   /* start change your habits  */
   .habits-section {
-    margin-top: -50px;
+    margin-top: -3.125rem;
     width: 100%;
   }
   .habits-img-content {
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    margin-top: 20px;
+    gap: 3.125rem;
+    margin-top: 1.25rem;
   }
   /* end change your habits  */
 
@@ -37,26 +37,26 @@
     width: 40%;
   }
   .mile-text-content h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   .mile-text-content p {
-    width: 300px;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 35px;
+    width: 18.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.1875rem;
   }
   .mile-image-content {
     width: 50%;
-    margin-left: 50px;
+    margin-left: 3.125rem;
   }
 
   .mile-image-card {
-    width: 300px;
-    height: 312px;
-    border-radius: 18px;
+    width: 18.75rem;
+    height: 19.5rem;
+    border-radius: 1.125rem;
   }
   /* end mile-easily-section */
 
@@ -72,43 +72,43 @@
 
   .full-content {
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   .bmi-form-section p {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     width: 100%;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
   }
   .input-form-1,
   .input-form-2,
   .input-form-3,
   .input-form-4 {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     width: 46%;
   }
   .input-form-5 {
     width: 96%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
 
   .from button {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     width: 100%;
   }
   /* end BMI Calculator */
 
   /* <!-- start Meet Our Team --> */
   .trainer {
-    top: 160px;
-    left: 30px;
-    font-size: 14px;
+    top: 10rem;
+    left: 1.875rem;
+    font-size: 0.875rem;
   }
 
   .trainer-para {
-    top: 180px;
-    left: 30px;
+    top: 11.25rem;
+    left: 1.875rem;
   }
   /* <!-- end Meet Our Team --> */
 
@@ -130,19 +130,19 @@
   }
 
   .challenge-card {
-    padding: 50px;
+    padding: 3.125rem;
   }
 
   .challenge-card h3 {
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 2.1875rem;
+    margin-bottom: 1.5625rem;
   }
   .challenge-card p {
     font-size: 1rem;
     width: 100%;
     font-weight: 400;
-    margin-bottom: 30px;
-    line-height: 25px;
+    margin-bottom: 1.875rem;
+    line-height: 1.5625rem;
   }
   .training-img-section {
     grid-template-columns: 1;
@@ -154,7 +154,7 @@
   .training-image-card-4,
   .training-image-card-5,
   .training-image-card-6 {
-    height: 214px;
+    height: 13.375rem;
   }
   /* end challenge-section */
 }

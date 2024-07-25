@@ -3,23 +3,23 @@
   main,
   footer {
     padding-top: 3.125rem;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
     margin: 0 auto;
   }
   .tr-box {
-    width: 183px;
-    height: 88px;
+    width: 11.4375rem;
+    height: 5.5rem;
   }
   .box-1 {
-    top: 260px;
+    top: 16.25rem;
     right: 0px;
   }
 
   .box-2 {
-    right: 280px;
-    top: 550px;
-    padding-left: 30px;
+    right: 17.5rem;
+    top: 34.375rem;
+    padding-left: 1.875rem;
   }
 
   /* start mile-easily-section */
@@ -28,31 +28,31 @@
     width: 100%;
   }
   .mile-text-content h1 {
-    font-size: 48px;
+    font-size: 3rem;
   }
 
   .mile-text-content p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .mile-image-content {
     width: 50%;
-    margin-left: 200px;
+    margin-left: 12.5rem;
   }
 
   /* start BMI Calculator */
 
   .bmi-table-section {
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
   .bmi-table-section table,
   th,
   td {
     border-collapse: collapse;
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     text-align: left;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .bmi-form-section {
@@ -61,11 +61,11 @@
   }
 
   .full-content {
-    padding: 50px;
+    padding: 3.125rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     margin: 0 auto;
     max-width: 100%;
   }
@@ -74,33 +74,33 @@
   .input-form-2,
   .input-form-3,
   .input-form-4 {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     width: 46%;
   }
   .input-form-5 {
     width: 95%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
   /* end BMI Calculator */
 
   /* <!-- start Meet Our Team --> */
   .trainer {
-    top: 320px;
-    left: 30px;
+    top: 20rem;
+    left: 1.875rem;
   }
 
   .trainer-para {
-    top: 340px;
-    left: 30px;
+    top: 21.25rem;
+    left: 1.875rem;
   }
   /* <!-- end Meet Our Team --> */
 
   /* start challenge-section */
   .challenge-card {
-    padding: 30px;
-    border-radius: 20px;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.875rem;
     width: 100%;
   }
 

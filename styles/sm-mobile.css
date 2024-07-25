@@ -4,44 +4,44 @@
   footer {
     /* max-width: 1440px; */
     padding-top: 3.125rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     margin: 0 auto;
   }
   .btn-section {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .btn-section button {
-    font-size: 13px;
+    font-size: 0.875rem;
   }
   .btn-primary {
-    padding: 12px 20px 12px 20px;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
   }
   .btn-outline {
-    padding: 12px 20px 12px 20px;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
   }
   .trainer {
-    top: 230px;
-    left: 25px;
+    top: 14.375rem;
+    left: 1.5625rem;
   }
 
   .trainer-para {
-    top: 250px;
-    left: 25px;
+    top: 15.625rem;
+    left: 1.5625rem;
   }
 
   .input-form-1,
   .input-form-2,
   .input-form-3,
   .input-form-4 {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     width: 44%;
-    font-size: 13px;
+    font-size: 0.875rem;
   }
   .input-form-5 {
     width: 95%;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: 0.625rem;
+    font-size: 0.75rem;
   }
 
   .training-section {
@@ -61,7 +61,7 @@
   }
 
   .training-text-content h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
   .training-text-content p {
     font-size: 1rem;
@@ -73,9 +73,9 @@
   .training-image-card-4,
   .training-image-card-5,
   .training-image-card-6 {
-    height: 214px;
+    height: 13.375rem;
   }
   .training-image-card-3 {
-    height: 214px;
+    height: 13.375rem;
   }
 }
