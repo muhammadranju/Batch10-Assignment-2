@@ -202,6 +202,7 @@ header {
 .header-img-section img {
   width: 21.8125rem;
   height: 36.75rem;
+  position: relative;
 }
 .head-title {
   font-size: 4.875rem;

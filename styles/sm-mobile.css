@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 390px) {
   header,
   main,
   footer {
@@ -23,6 +23,15 @@
   .trainer {
     top: 14.375rem;
     left: 1.5625rem;
+  }
+  .box-1 {
+    margin-top: 380px;
+    margin-right: -170px;
+    /* right: 1.25rem; */
+  }
+  .box-2 {
+    margin-top: 320px;
+    margin-right: -300px;
   }
 
   .trainer-para {
